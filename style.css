@@ -17,4 +17,18 @@ body {
   background-image: url("./img/background_image.png");
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+.inputes
+{
+  display: flex;
+  flex-direction: column;
+}
+.inputes button:nth-child(3) {
+  position: absolute;
+  bottom:50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;  
 }
