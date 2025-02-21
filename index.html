@@ -15,20 +15,22 @@
             type="number"
             id="num1"
             name="num1"
-            placeholder="Enter a number 1"
+            placeholder="Enter a Length"
             required
           />
           <input
             type="number"
             id="num2"
             name="num2"
-            placeholder="Enter a number 2"
+            placeholder="Enter a Width"
             required
           />
-          <button type="button" id="button" name="button">Area =</button>
-          <button id="button" name="button">Reset 0</button>
+          <button type="button" id="button" name="button" onclick="area()">
+            Area =
+          </button>
+          <button id="button" name="button" onclick="reset()">Reset 0</button>
         </div>
-        <div class="result"><span>Area Of Rectangle Is</span></div>
+        <div class="result" id="result"></div>
       </form>
     </div>
   </body>
